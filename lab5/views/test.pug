@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{title}
+    body 
+        h1 Hello World
+        p This is a test page
+        p #{name}
+        a(href='google.com') Google
+        a(class='button', href='google.com') Google
+        <a href="google.com">Google</a><a href="google.com" class="button">Google</a>
+        input(
+        type='checkbox'
+        name='agreement'
+        checked
+        )
+        p = 'This code is <escaped>!'
+        <p>This code is &lt;escaped&gt;!</p>
+        It can also be written inline with attributes, and supports the full range of JavaScript expressions:
+
+        p!= 'This code is' + ' <strong>not</strong> escaped!'
+        <p>This code is <strong>not</strong> escaped!</p>
+    
+    #footer
+    p Copyright (c) foobar
