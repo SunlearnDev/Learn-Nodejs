@@ -128,6 +128,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-lab3/generator/node_modules
-lab3/generator/package-lock.json
-lab3/package-lock.json
+lab5/package-lock.json
+.vscode
